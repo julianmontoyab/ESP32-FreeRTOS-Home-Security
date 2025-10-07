@@ -20,5 +20,3 @@ This DIY home security system leverages **FreeRTOS** real-time operating system 
 - **Inter-Task Communication** via Queues, Semaphores, and Event Groups
 - **Priority-Based Scheduling** for critical alarm response
 - **Resource Management** with Mutexes and Task Notifications
-
-### 📊 Task Distribution
