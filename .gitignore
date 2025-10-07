@@ -1,0 +1,101 @@
+# IMPORTANT: Security Files
+secrets.h
+config_private.h
+credentials.h
+*.key
+*.pem
+*.cert
+
+# Arduino IDE
+*.hex
+*.elf
+*.bin
+*.map
+*.sym
+*.lss
+*.eep
+
+# Build directories
+build/
+.build/
+out/
+
+# IDE specific files
+.vscode/
+.idea/
+*.sublime-*
+.clang_complete
+.gcc-flags.json
+*.swp
+*.swo
+*~
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+.clang_complete
+.gcc-flags.json
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Debug and Log files
+*.log
+debug.txt
+serial_output.txt
+monitor.txt
+
+# Backup files
+*.backup
+*.bak
+*.old
+*.orig
+*_backup.*
+*_old.*
+
+# Documentation build
+docs/_build/
+docs/.doctrees/
+*.pdf
+!hardware/schematic.pdf
+
+# Python (for tools)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+# Testing
+test_results/
+coverage/
+*.test
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+
+# Custom test files
+test_*.ino
+*_test.ino
+
+# Node modules (if using web interface)
+node_modules/
+package-lock.json
